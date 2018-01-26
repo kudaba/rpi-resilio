@@ -4,8 +4,8 @@ Used for Docker Image on [DockerHub](https://hub.docker.com/r/kudaba/rpi-resilio
 
 To Update:
 
-docker build -t kudaba/rpi-resilio:<version> .  
-docker tag kudaba/rpi-resilio:<version> kudaba/rpi-resilio:latest  
+docker build -t kudaba/rpi-resilio:&lt;version> .  
+docker tag kudaba/rpi-resilio:&lt;version> kudaba/rpi-resilio:latest  
 docker push kudaba/rpi-resilio  
 
 To Restart:
